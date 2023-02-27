@@ -1,8 +1,40 @@
+* {
+    color:#2c5b41;
+}
+
+a {
+    color:#2c5b41;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #57895f;
+}
+
+
 .bgimg {
     height:100vh;
     background-color: rgb(0, 0, 0, 0.5);
     background: url('../img/bg.png') no-repeat;
     background-size:cover;
     position:relative;
+    padding: 10vw;
     
   }
+
+section {
+    font-family: 'Lora', serif;
+}
+
+section h1 {
+    margin: 2em;
+}
+
+nav, footer {
+    background-color: #e4f9f2;
+}
+
+button {
+    margin: 0.5em;
+    background-color: #2c5b41;
+}
